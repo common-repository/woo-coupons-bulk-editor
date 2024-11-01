@@ -1,0 +1,213 @@
+# Copyright (C) 2020 WP Sheet Editor
+# This file is distributed under the same license as the WP Sheet Editor - WooCommerce Coupons plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Sheet Editor - WooCommerce Coupons 1.3.11.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"coupons\n"
+"Language-Team: Hanno Bolte IT Consulting <info@bsoft.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-10-20T18:05:29+00:00\n"
+"PO-Revision-Date: 2020-11-17 14:13+0100\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: Hanno Bolte <xlate@bsoft.de>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+
+#. Plugin Name of the plugin
+msgid "WP Sheet Editor - WooCommerce Coupons"
+msgstr "WP Sheet Editor - WooCommerce-Gutscheine"
+
+#. Plugin URI of the plugin
+msgid ""
+"https://wpsheeteditor.com/extensions/woocommerce-coupons-spreadsheet/?"
+"utm_source=wp-admin&utm_medium=plugins-list&utm_campaign=coupons"
+msgstr ""
+"https://wpsheeteditor.com/extensions/woocommerce-coupons-spreadsheet/?"
+"utm_source=wp-admin&utm_medium=plugins-list&utm_campaign=coupons"
+
+#. Description of the plugin
+msgid "Edit WooCommerce Coupons in spreadsheet."
+msgstr "WooCommerce-Gutscheine im Arbeitsblatt bearbeiten."
+
+#. Author of the plugin
+msgid "WP Sheet Editor"
+msgstr "WP Sheet Editor"
+
+#. Author URI of the plugin
+msgid ""
+"https://wpsheeteditor.com/?utm_source=wp-admin&utm_medium=plugins-"
+"list&utm_campaign=coupons"
+msgstr ""
+"https://wpsheeteditor.com/?utm_source=wp-admin&utm_medium=plugins-"
+"list&utm_campaign=coupons"
+
+#: coupons.php:80
+msgid ""
+"Please update the WP Sheet Editor plugin and all its extensions to the "
+"latest version. The features of the plugin \""
+msgstr ""
+"Bitte aktualisiere das WP Sheet Editor Plugin und alle seine Erweiterungen "
+"auf die neueste Version. Die Eigenschaften des Plugins \""
+
+#: coupons.php:155
+msgid "My license"
+msgstr "Meine Lizenz"
+
+#: coupons.php:249 coupons.php:252 coupons.php:271 coupons.php:286
+msgid "Coupons"
+msgstr "Gutscheine"
+
+#: coupons.php:279
+msgid "Bulk Edit coupons"
+msgstr "Massenbearbeitung von Gutscheinen"
+
+#: inc/columns.php:128
+msgid "Prefix for the coupon codes"
+msgstr "Präfix für die Gutscheincodes"
+
+#: inc/columns.php:138
+msgid ""
+"<p style=\"text-align: left;\">1. When you duplicate coupons, we will copy "
+"all the info of the coupon (including amount, restrictions, etc.) except the "
+"date and coupon code.<br>2. The new coupons will have the current date and a "
+"new coupon code.</p>"
+msgstr ""
+"<p style=\"text-align: left;\">1. Wenn du Gutscheine duplizierst, kopieren "
+"wir alle Informationen des Gutscheins (einschließlich Betrag, "
+"Einschränkungen usw.) mit Ausnahme des Datums und des Gutscheincodes.<br>2. "
+"Die neuen Gutscheine werden das aktuelle Datum und einen neuen Gutscheincode "
+"haben.</p>"
+
+#: inc/columns.php:159
+msgid "Prefix used for new coupon codes"
+msgstr "Präfix für neue Gutscheincodes"
+
+#: inc/columns.php:160
+msgid ""
+"When you use the \"Add new\" tool in our spreadsheet, we create many coupons "
+"using \"NEW-<6 random characters>\". This option allows you to change the "
+"NEW- prefix to anything you want. It is mandatory to use a prefix, if you "
+"leave this option empty we will use the default NEW-"
+msgstr ""
+"Wenn du das Tool \"Neu hinzufügen\" in unserem Arbeitsblatt verwendest, "
+"erstellen wir viele Coupons mit \"NEU-\"<6 Zufallszeichen>. Diese Option "
+"ermöglicht es dir, das Präfix \"NEW-\" nach Belieben zu ändern. Es ist "
+"obligatorisch, ein Präfix zu verwenden; wenn du diese Option leer lässt, "
+"verwenden wir das Standard-Präfix NEW-"
+
+#: inc/columns.php:166
+msgid "Coupons sheet"
+msgstr "Gutscheinblatt"
+
+#: inc/columns.php:230
+msgid "Discount type"
+msgstr "Rabattart"
+
+#: inc/columns.php:236
+msgid "Fixed cart"
+msgstr "Pauschaler Warenkorb"
+
+#: inc/columns.php:237
+msgid "Percentage discount"
+msgstr "Prozentualer Rabatt"
+
+#: inc/columns.php:238
+msgid "Fixed product discount"
+msgstr "Pauschaler Produktrabatt"
+
+#: inc/columns.php:249
+msgid "Allowed emails"
+msgstr "Erlaubte E-Mails"
+
+#: inc/columns.php:262
+msgid "Coupon amount"
+msgstr "Gutscheinbetrag"
+
+#: inc/columns.php:272
+msgid "Usage limit per coupon"
+msgstr "Anwendungsbeschränkung pro Gutschein"
+
+#: inc/columns.php:282
+msgid "Usage limit per user"
+msgstr "Anwendungsbeschränkung pro Benutzer"
+
+#: inc/columns.php:292
+msgid "Limit usage to X items"
+msgstr "Nutzung auf X Produkte beschränken"
+
+#: inc/columns.php:302
+msgid "Coupon expiry date"
+msgstr "Verfallsdatum des Gutscheins"
+
+#: inc/columns.php:316
+msgid "Description"
+msgstr "Beschreibung"
+
+#: inc/columns.php:327
+msgid "Allow free shipping"
+msgstr "Kostenlosen Versand erlauben"
+
+#: inc/columns.php:344
+msgid "Individual use only"
+msgstr "Nur einzeln anwendbar"
+
+#: inc/columns.php:361
+msgid "Exclude sale items"
+msgstr "Produkte im Sonderangebot ausschließen"
+
+#: inc/columns.php:376
+msgid "Usage"
+msgstr "Verwendung"
+
+#: inc/columns.php:389
+msgid "Sales"
+msgstr "Verkäufe"
+
+#: inc/columns.php:402
+msgid "Product categories"
+msgstr "Produktkategorien"
+
+#: inc/columns.php:413
+msgid "Exclude categories"
+msgstr "Kategorien ausschließen"
+
+#: inc/columns.php:424
+msgid "Used by"
+msgstr "Genutzt von"
+
+#: inc/columns.php:436
+msgid "Products"
+msgstr "Produkte"
+
+#: inc/columns.php:442 inc/columns.php:456
+msgid "Enter product/variation titles or skus separated by commas."
+msgstr "Gib durch Kommata getrennte Produkt-/Variantentitel oder SKUs ein."
+
+#: inc/columns.php:450
+msgid "Exclude products"
+msgstr "Produkte ausschließen"
+
+#: views/welcome-page-content.php:4
+msgid "Thank you for installing our plugin."
+msgstr "Vielen Dank für die Installation unseres Plugins."
+
+#: views/welcome-page-content.php:9
+msgid ""
+"Install the plugin: WooCommerce. <a href=\"%s\" target=\"_blank\" class="
+"\"button install-plugin-trigger\">Click here</a>. This is a WooCommerce "
+"extension."
+msgstr ""
+"Installiere das Plugin: WooCommerce. <a href=\"%s\" target=\"_blank\" class="
+"\"button install-plugin-trigger\">Hier klicken</a>. Dies ist eine "
+"WooCommerce-Erweiterung."
+
+#: views/welcome-page-content.php:11
+msgid ""
+"You can open the Coupons Bulk Editor Now:  <a href=\"%s\" class=\"button"
+"\">Click here</a>"
+msgstr ""
+"Du kannst den Gutschein-Masseneditor jetzt öffnen: <a href=\"%s\" class="
+"\"button\">Hier klicken</a>"

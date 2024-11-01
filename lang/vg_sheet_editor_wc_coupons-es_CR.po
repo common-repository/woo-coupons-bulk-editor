@@ -1,0 +1,220 @@
+# Copyright (C) 2019 WP Sheet Editor
+# This file is distributed under the same license as the WP Sheet Editor - WooCommerce Coupons plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Sheet Editor - WooCommerce Coupons 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"coupons\n"
+"POT-Creation-Date: 2021-03-18T21:08:14+00:00\n"
+"PO-Revision-Date: 2021-03-22 17:40-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_CR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+msgid "WP Sheet Editor - WooCommerce Coupons"
+msgstr "Editor Masivo - Cupones WooCommerce"
+
+#. Plugin URI of the plugin
+msgid ""
+"https://wpsheeteditor.com/extensions/woocommerce-coupons-spreadsheet/?"
+"utm_source=wp-admin&utm_medium=plugins-list&utm_campaign=coupons"
+msgstr ""
+
+#. Description of the plugin
+msgid "Edit WooCommerce Coupons in spreadsheet."
+msgstr "Edita Cupones WooCommerce en una hoja de cálculo."
+
+#. Author of the plugin
+msgid "WP Sheet Editor"
+msgstr "WP Sheet Editor"
+
+#. Author URI of the plugin
+msgid ""
+"https://wpsheeteditor.com/?utm_source=wp-admin&utm_medium=plugins-"
+"list&utm_campaign=coupons"
+msgstr ""
+
+#: coupons.php:80
+msgid ""
+"Please update the WP Sheet Editor plugin and all its extensions to the "
+"latest version. The features of the plugin \""
+msgstr ""
+"Por favor, actualiza el plugin WP Sheet Editor y todas sus extensiones a la "
+"última versión, el plugin NÚCLEO debe ser la versión 2.5.3 o superior. El "
+"plugin \""
+
+#: coupons.php:155
+msgid "My license"
+msgstr "Mi licencia"
+
+#: coupons.php:249 coupons.php:252 coupons.php:271 coupons.php:286
+msgid "Coupons"
+msgstr "Cupones"
+
+#: coupons.php:279
+msgid "Bulk Edit coupons"
+msgstr "Editar cupones masivamente"
+
+#: inc/columns.php:128
+msgid "Prefix for the coupon codes"
+msgstr "Prefijo para los nuevos códigos de cupones"
+
+#: inc/columns.php:138
+msgid ""
+"<p style=\"text-align: left;\">1. When you duplicate coupons, we will copy "
+"all the info of the coupon (including amount, restrictions, etc.) except the "
+"date and coupon code.<br>2. The new coupons will have the current date and a "
+"new coupon code.</p>"
+msgstr ""
+"<p style=\"text-align: left;\">1. Cuando duplicas cupones, copiaremos toda "
+"la información del cupón (incluyendo el monto, restricciones, etc.) excepto "
+"la fecha y el código. <br>2. Los nuevos cupones tendrán la fecha actual y un "
+"nuevo código.</p>"
+
+#: inc/columns.php:160
+msgid "Prefix used for new coupon codes"
+msgstr "Prefijo usado para los nuevos códigos de cupón"
+
+#: inc/columns.php:161
+msgid ""
+"When you use the \"Add new\" tool in our spreadsheet, we create many coupons "
+"using \"NEW-<6 random characters>\". This option allows you to change the "
+"NEW- prefix to anything you want. It is mandatory to use a prefix, if you "
+"leave this option empty we will use the default NEW-"
+msgstr ""
+"Cuando utilizas la herramienta \"Añadir Nuevo\" en nuestra hoja de cálculo, "
+"creamos muchos cupones utilizando \"NEW-<6 random characters>\". Esta opción "
+"te permite cambiar el prefijo NUEVO- a lo que quieras. Es obligatorio usar "
+"un prefijo, si dejas esta opción vacía usaremos la opción por defecto NUEVO-"
+
+#: inc/columns.php:170
+msgid "Use product/variation IDs in the product restrictions?"
+msgstr "Usar ID de producto/variaciones en las restricciones de productos?"
+
+#: inc/columns.php:171
+msgid ""
+"By default we allow to save using titles or skus. Activate this to only use "
+"IDs"
+msgstr ""
+"Por defecto, permitimos guardar usando títulos o SKUs. Activa esta opción "
+"para usar solo IDs"
+
+#: inc/columns.php:178
+msgid "Coupons sheet"
+msgstr "Hoja de Cálculo de Cupones"
+
+#: inc/columns.php:242
+msgid "Discount type"
+msgstr "Tipo de descuento"
+
+#: inc/columns.php:248
+msgid "Fixed cart"
+msgstr "Carrito fijo"
+
+#: inc/columns.php:249
+msgid "Percentage discount"
+msgstr "Porcentaje de descuento"
+
+#: inc/columns.php:250
+msgid "Fixed product discount"
+msgstr "Descuento fijo de productos"
+
+#: inc/columns.php:261
+msgid "Allowed emails"
+msgstr "Correos permitidos"
+
+#: inc/columns.php:274
+msgid "Coupon amount"
+msgstr "Monto del cupón"
+
+#: inc/columns.php:284
+msgid "Usage limit per coupon"
+msgstr "Límite de uso por cupón"
+
+#: inc/columns.php:294
+msgid "Usage limit per user"
+msgstr "Límite de uso por usuario"
+
+#: inc/columns.php:304
+msgid "Limit usage to X items"
+msgstr "Límitar uso a X items"
+
+#: inc/columns.php:314
+msgid "Coupon expiry date"
+msgstr "Fecha de caducidad del cupón"
+
+#: inc/columns.php:328
+msgid "Description"
+msgstr "Descripción"
+
+#: inc/columns.php:339
+msgid "Allow free shipping"
+msgstr "Permitir envío gratuito"
+
+#: inc/columns.php:356
+msgid "Individual use only"
+msgstr "Solo uso individual"
+
+#: inc/columns.php:373
+msgid "Exclude sale items"
+msgstr "Excluir artículos en oferta"
+
+#: inc/columns.php:388
+msgid "Usage"
+msgstr "Uso"
+
+#: inc/columns.php:401
+msgid "Sales"
+msgstr "Ventas"
+
+#: inc/columns.php:414
+msgid "Product categories"
+msgstr "Categorías de producto"
+
+#: inc/columns.php:425
+msgid "Exclude categories"
+msgstr "Excluir categorías"
+
+#: inc/columns.php:436
+msgid "Used by"
+msgstr "Usado por"
+
+#: inc/columns.php:448
+msgid "Products"
+msgstr "Productos"
+
+#: inc/columns.php:454 inc/columns.php:468
+msgid "Enter product/variation titles or skus separated by commas."
+msgstr "Ingresa títulos o SKUs de productos/variaciones separados por comas."
+
+#: inc/columns.php:462
+msgid "Exclude products"
+msgstr "Excluir productos"
+
+#: views/welcome-page-content.php:6
+msgid "Thank you for installing our plugin."
+msgstr "Gracias por instalar nuestro plugin."
+
+#: views/welcome-page-content.php:11
+msgid ""
+"Install the plugin: WooCommerce. <a href=\"%s\" target=\"_blank\" class="
+"\"button install-plugin-trigger\">Click here</a>. This is a WooCommerce "
+"extension."
+msgstr ""
+"Instala el plugin: WooCommerce. <a href=\"%s\" target=\"_blank\" class="
+"\"button install-plugin-trigger\">Clic aquí</a>. Esta es una extensión "
+"WooCommerce."
+
+#: views/welcome-page-content.php:13
+msgid ""
+"You can open the Coupons Bulk Editor Now:  <a href=\"%s\" class=\"button"
+"\">Click here</a>"
+msgstr ""
+"Puedes abrir el Editor Masivo de Cupones ahora:  <a href=\"%s\" class="
+"\"button\">Clic aquí</a>"
